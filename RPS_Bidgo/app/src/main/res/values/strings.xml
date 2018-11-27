@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RPS_Bidgo</string>
+    <string name="title_activity_raziskovanje">Raziskovanje</string>
+    <string name="title_activity_moj_racun">mojRacun</string>
+    <string name="title_activity_objavi_oglas">ObjaviOglas</string>
+    <string name="title_activity_klepet">Klepet</string>
+    <string name="title_activity_objava">Objava</string>
+    <string name="title_activity_prikazi_oglas">PrikaziOglas</string>
+    <string name="title_activity_chat">Chat</string>
+</resources>

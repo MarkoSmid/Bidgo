@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.uporabnik.rps_bidgo.Raziskovanje">
+    <item
+        android:id="@+id/odjava"
+        android:orderInCategory="2"
+        android:title="odjava"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/osvezi"
+        android:orderInCategory="1"
+        android:title="Osveži"
+        app:showAsAction="always" />
+</menu>

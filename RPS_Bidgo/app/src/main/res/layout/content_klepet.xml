@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.uporabnik.rps_bidgo.Klepet"
+    tools:showIn="@layout/activity_klepet">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="455dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="455dp"
+            android:orientation="vertical"
+            android:id="@+id/klepetiView">
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#AACCCC"
+        android:layout_gravity="center|bottom"
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageButton
+            android:id="@+id/raziskovanje"
+            android:layout_width="70dp"
+            android:onClick="raziskovanje"
+            android:layout_height="70dp" />
+
+        <ImageButton
+            android:id="@+id/klepet"
+            android:layout_width="70dp"
+            android:onClick="klepet"
+            android:layout_height="70dp" />
+
+        <ImageButton
+            android:id="@+id/objavi"
+            android:layout_width="70dp"
+            android:onClick="objavi"
+            android:layout_height="70dp" />
+
+        <ImageButton
+            android:id="@+id/moji_oglasi"
+            android:layout_width="70dp"
+            android:onClick="moji_oglasi"
+            android:layout_height="70dp" />
+
+        <ImageButton
+            android:id="@+id/moj_racun"
+            android:layout_width="70dp"
+            android:onClick="moj_racun"
+            android:layout_height="70dp" />
+    </LinearLayout>
+
+</LinearLayout>
